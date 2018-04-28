@@ -1,0 +1,95 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Didact Gothic', sans-serif;
+
+}
+
+p {
+  clear:both;
+}
+
+/***** HEADER *****/
+
+h1 {
+    color: black;
+    font-family: ;
+    font-size: 45px;
+}
+
+span{
+  color: #77a466;
+}
+
+nav {
+    clear:both;
+    float: right;
+    padding: 30px 0px;
+}
+
+nav ul li{
+    color: #77a466;
+    display: inline-block;
+    font-variant: small-caps;
+}
+
+ul{
+  list-style-type: none;
+  text-align: justify;
+  display: inline;
+}
+
+/**** PICTURE & INFO ID****/
+
+#bean-picture{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  clear: both;
+}
+
+/***** BODY ****/
+
+header h2 {
+    color: #9b9b9b;
+    clear:both;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0;
+    width: auto;
+}
+
+/***** GRID CLASSES*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    border: 1px solid #dedbdc;
+    height: 150px;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    margin-top: 30px;
+    text-align: left;
+    width: 350px;
+}
+
+
+/***** FOOTER *****/
+
+#footer{
+      clear: both;
+      margin-top: 50px;
+      padding-top: 20px;
+      text-align: center;
+
+}
